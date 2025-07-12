@@ -1,9 +1,10 @@
 import React from 'react';
+import Header from '../Header/Header';
 
 const Mainlayout = () => {
     return (
-        <div>
-            main layout
+        <div className='px-10'>
+            <Header></Header>
         </div>
     );
 };
